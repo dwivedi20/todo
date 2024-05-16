@@ -24,7 +24,7 @@ const Form = () => {
   return (
     <form  className='form-control border border-warning bg-dark ' onSubmit={(e)=>handlesubmit(e)} >
     <input type="text" placeholder='Enter your text' className='w-100 rounded-0 p-3 border border-success'  value={text}  onChange={(e)=>setText(e.target.value)}   />
-    <button className="btn btn-info w-100 rounded-0 my-3">Save</button>
+    <button className="btn btn-info w-100 rounded-0 my-3">Submit</button>
   </form>
   )
 }
